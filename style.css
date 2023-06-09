@@ -1,0 +1,75 @@
+*{
+  /* universal selector*/
+  margin:0;
+  padding:0;
+}
+
+h1{
+  background-color: aqua;
+}
+body{
+  /*  color types 
+  color:red;
+  color:#000000;
+  color:rgb(0,0,0);
+  color:rgba(0,0,234,0.5);
+  */
+/*
+fonts
+font-family:;
+font-weight:;
+font-size:;
+*/
+/*
+text-formate
+text-align:;
+text-transform:;
+text-decoration:;
+color:;
+*/
+}
+/*class*/
+.box{
+background-color: red;
+}
+/*class and element*/
+.box h2{
+    text-align: center;
+   color: wheat;
+    }
+/*id*/
+#box{
+background-color: aqua;
+}
+.box-model{
+    
+}
+.container{
+  width:80%;
+  margin:auto;
+}
+.list ul li{
+  display:block;
+}
+.list1 ul li{
+ list-style-type:none;
+
+}
+/*
+.list1 ul li:first-child{
+  background-color:yellow;
+}
+.list1 ul li:last-child{
+  background-color: rgb(34, 34, 20);
+}*/
+.list1 ul li:nth-child(odd){
+  background-color: rgb(34, 34, 20);
+}
+.list1 ul li:nth-child(even){
+  background-color: rgb(103, 103, 30);
+}
+/*float*/
+.float{
+  list-style-type: none;
+  float:right;
+}
